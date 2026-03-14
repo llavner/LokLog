@@ -10,4 +10,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LokLog.Contracts\LokLog.Contracts.csproj" />
+    <ProjectReference Include="..\LokLog.Core\LokLog.Core.csproj" />
+    <ProjectReference Include="..\LokLog.Infrastructure\LokLog.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
