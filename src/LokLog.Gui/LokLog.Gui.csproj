@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LokLog.Contracts\LokLog.Contracts.csproj" />
+    <ProjectReference Include="..\..\LokLog.Application\LokLog.Application.csproj" />
+    <ProjectReference Include="..\LokLog.Api\LokLog.Api.csproj" />
   </ItemGroup>
 
 </Project>
