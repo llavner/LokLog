@@ -6,8 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);SA0001</NoWarn>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
 	<ItemGroup>
 		<PackageReference Include="StyleCop.Analyzers" PrivateAssets="all" Version="1.1.118" />
 	</ItemGroup>
+
 	
 </Project>
