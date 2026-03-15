@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="LokLog.Application/LokLog.Application.csproj" Id="b8a72d01-2126-4688-b053-a00d3f45bf94" />
   <Project Path="src/LokLog.Api/LokLog.Api.csproj" Id="869729b2-0739-4dde-a617-e25ebf80fc04" />
+  <Project Path="src/LokLog.Application/LokLog.Application.csproj" Id="dc668d9a-1988-4068-9504-be146d79335a" />
   <Project Path="src/LokLog.Core/LokLog.Core.csproj" Id="0151b3a2-b1e6-4804-b1ce-156824287b75" />
   <Project Path="src/LokLog.Gui/LokLog.Gui.csproj" Id="fcca5d09-9b41-4327-b1e2-725812d1277c" />
   <Project Path="src/LokLog.Infrastructure/LokLog.Infrastructure.csproj" Id="df6e6942-e5f4-4bac-8eb7-ebe4462149a3" />

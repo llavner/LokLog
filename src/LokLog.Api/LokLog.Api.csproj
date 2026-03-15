@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\LokLog.Application\LokLog.Application.csproj" />
-    <ProjectReference Include="..\LokLog.Contracts\LokLog.Contracts.csproj" />
+    <ProjectReference Include="..\LokLog.Application\LokLog.Application.csproj" />
   </ItemGroup>
 
 </Project>
