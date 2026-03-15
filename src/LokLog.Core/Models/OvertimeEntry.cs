@@ -1,25 +1,25 @@
-﻿namespace LokLog.Core.Models;
+namespace LokLog.Core.Models;
 
-public class OvertimeEntry(int id, Guid userId, DateTime date, decimal minutes, string description, OvertimeCategory category, DateTime createdAt, DateTime updatedAt)
+internal class OvertimeEntry(int id, Guid userId, DateTime date, decimal minutes, string description, OvertimeCategory category, DateTime createdAt, DateTime updatedAt)
 {
-    public int Id { get; set; } = id;
+    internal int Id { get; set; } = id;
 
-    required public Guid UserId { get; set; } = userId;
+    required internal Guid UserId { get; set; } = userId;
 
-    public DateTime Date { get; set; } = date;
+    internal DateTime Date { get; set; } = date;
 
-    public decimal Minutes { get; set; } = minutes;
+    internal decimal Minutes { get; set; } = minutes;
 
-    public string Description { get; set; } = description;
+    internal string Description { get; set; } = description;
 
-    public OvertimeCategory Category { get; set; } = category;
+    internal OvertimeCategory Category { get; set; } = category;
 
-    public DateTimeOffset CreatedAt { get; set; } = createdAt;
+    internal DateTimeOffset CreatedAt { get; set; } = createdAt;
 
-    public DateTimeOffset? UpdatedAt { get; set; } = updatedAt;
+    internal DateTimeOffset? UpdatedAt { get; set; } = updatedAt;
 }
 
-public enum OvertimeCategory
+internal enum OvertimeCategory
 {
     Regular,
     Holiday,
