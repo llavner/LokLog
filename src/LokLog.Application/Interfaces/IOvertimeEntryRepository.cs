@@ -1,12 +1,11 @@
-using LokLog.Core.Models;
-
 namespace LokLog.Application.Interfaces;
+using LokLog.Core.Models;
 
 public interface IOvertimeEntryRepository
 {
     Task<OvertimeEntry> GetByIdAsync(Guid id);
 
-    Task<IReadOnlyList<OvertimeEntry>> SearchAsync(string userId, DateOnly from, DateOnly to);
+    Task<IReadOnlyList<OvertimeEntry>> SearchAsync(Guid userId, DateOnly from, DateOnly to);
 
     Task AddAsync(OvertimeEntry entry);
 
